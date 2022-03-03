@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: echo "Hello"
+    - run: mkdir test
     - name: Checkout
       uses: actions/checkout@master
     - uses: jakejarvis/s3-sync-action@master
